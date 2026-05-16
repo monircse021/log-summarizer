@@ -1,0 +1,52 @@
+{
+  "logs": [
+    {
+      "timestamp": "2026-05-17T10:00:05Z",
+      "level": "ERROR",
+      "service": "payment-service",
+      "message": "Database connection timed out after 3001ms"
+    },
+    {
+      "timestamp": "2026-05-17T10:00:06Z",
+      "level": "ERROR",
+      "service": "payment-service",
+      "message": "Database connection timed out after 3002ms"
+    },
+    {
+      "timestamp": "2026-05-17T10:00:07Z",
+      "level": "ERROR",
+      "service": "payment-service",
+      "message": "Database connection timed out after 3001ms"
+    },
+    {
+      "timestamp": "2026-05-17T10:00:08Z",
+      "level": "ERROR",
+      "service": "order-service",
+      "message": "Failed to process payment: upstream payment-service returned 504"
+    },
+    {
+      "timestamp": "2026-05-17T10:00:09Z",
+      "level": "ERROR",
+      "service": "order-service",
+      "message": "Failed to process payment: upstream payment-service returned 504"
+    },
+    {
+      "timestamp": "2026-05-17T10:00:10Z",
+      "level": "WARN",
+      "service": "user-service",
+      "message": "Login latency p95 = 4.2s (threshold 1.0s)"
+    },
+    {
+      "timestamp": "2026-05-17T10:00:11Z",
+      "level": "INFO",
+      "service": "notification-service",
+      "message": "Email queue depth 1240 (normal < 100)"
+    },
+    {
+      "timestamp": "2026-05-17T10:00:12Z",
+      "level": "ERROR",
+      "service": "payment-service",
+      "message": "Database connection timed out after 3003ms"
+    }
+  ]
+}
